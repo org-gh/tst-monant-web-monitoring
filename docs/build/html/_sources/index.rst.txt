@@ -7,10 +7,10 @@ Welcome to TST Monant Web Monitoring's documentation!
 =====================================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
    :caption: Python API:
 
-   source/api/tst_monant
+   api/tst_monant
 
 Indices and tables
 ==================
