@@ -17,4 +17,3 @@ formats: all
 python:
   install:
     - requirements: requirements.txt
-view raw.readthedocs.yml hosted with ❤ by GitHub
