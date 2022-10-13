@@ -4,7 +4,6 @@ feedparser
 requests
 urllib3
 schematics
-scrapy
 git+https://github.com/kinit-sk/newspaper@master#egg=newspaper3k
 newsapi-python
 tldextract

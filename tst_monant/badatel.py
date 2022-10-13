@@ -1,10 +1,21 @@
 import copy
 import logging
+#from scrapy.spiders import CrawlSpider, Rule
 
-from scrapy.spiders import CrawlSpider, Rule
 
+#class BadatelSpider(CrawlSpider):
+class BadatelSpider():
+    """Does some stuff
 
-class BadatelSpider(CrawlSpider):
+    Args:
+      foo (int): The foo to bar
+      bar (str): Bar to use on foo
+      baz (float): Baz to frobnicate
+
+    Returns:
+      float: The frobnicated baz
+    """
+
     name = "badatel"
     home_page = "https://www.badatel.net/"
     allowed_domains = ["badatel.net"]
@@ -19,7 +30,7 @@ class BadatelSpider(CrawlSpider):
 
         home_page = "https://www.badatel.net"
 
-        self.data_provider_id = kwargs.pop('data_provider_id')
+ #       self.data_provider_id = kwargs.pop('data_provider_id')
 
 
 
