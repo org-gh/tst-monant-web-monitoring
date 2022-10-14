@@ -9,6 +9,7 @@ class BadatelSpider():
 
     Args:
       foo (int): The foo to bar
+      foo2 (int): The foo2 to bar
       bar (str): Bar to use on foo
       baz (float): Baz to frobnicate
 

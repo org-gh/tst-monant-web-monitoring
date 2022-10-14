@@ -19,7 +19,7 @@ setup(
     description="Demo library",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://tst_monant.readthedocs.io/",
+    url="https://tst-monant-web-monitoring.readthedocs.io/", #    url="https://tst_monant.readthedocs.io/",
     author="Tomas Sako",
     author_email="tomas.sako@kinit.sk",
     license="MIT",
