@@ -19,6 +19,10 @@ jobs:
         pip install
         build
         --user
+    - name: Tests
+      run: >- 
+        python -m 
+        unittest tst_monant_tests/badatel_tests.py
     - name: Build a binary wheel and a source tarball
       run: >-
         python -m
