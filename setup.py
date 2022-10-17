@@ -15,7 +15,7 @@ with open(path.join(HERE, 'README.md'), encoding='utf-8') as f:
 # This call to setup() does all the work
 setup(
     name="tst_monant",
-    version="0.0.9",
+    version="0.1.0",
     description="Demo library",
     long_description=long_description,
     long_description_content_type="text/markdown",
