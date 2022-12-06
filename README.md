@@ -3,6 +3,10 @@
 
 Crawler using Scrapy with Celery integration
 
+# Recommended HW requirements
+- 4 CPU cores
+- 16 GB RAM
+
 ## Requirements
 
 These libraries are needed to be installed
