@@ -30,6 +30,7 @@ env:
   - PGPORT=5433
 
 install:
+  - echo $TRAVIS_BRANCH
   - export PYENV_VERSION=3.8.13
   - pip install -r requirements.txt
   - pip install --upgrade pytest
